@@ -19,17 +19,16 @@ h1, h2 {
   font-family: "Denk One", sans-serif;
   color: #623b0c;
   padding: 0 1rem;
-  }
+}
 
-  h1 {
-    margin: 1rem 0;
-  }
+h1 {
+  margin: 1rem 0;
+}
 
-  h2 {
-    margin: 1rem 0 1.5rem;
-    padding-bottom: 0;
-  }
-
+h2 {
+  margin: 1rem 0 1.5rem;
+  padding-bottom: 0;
+}
 
 body {
   margin: 0;
@@ -40,32 +39,32 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  "banner banner"
-  "col1 col2"
-  "col 1 col2";
+    "banner banner"
+    "col1 col2"
+    "col 1 col2";
   gap: 1rem;
   padding: 1rem;
-  margin-top: -.5rem
+  margin-top: -.5rem;
 }
 
 li {
   border: 2px #623b0c solid;
   border-radius: 8px;
-background-color: #ede3db;
-list-style-type: none;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-margin-bottom: 0;
+  background-color: #ede3db;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 0;
 }
 
 a {
   background-color: #623b0c;
   text-decoration: none;
-color: #fff;
-border-radius: 8px;
-padding: .5em 1rem .6em;
-margin: 1rem;
+  color: #fff;
+  border-radius: 8px;
+  padding: .5em 1rem .6em;
+  margin: 1rem;
 }
 
 p {
